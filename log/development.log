@@ -67,3 +67,20 @@ Processing by CustomersController#new as HTML
 Completed 200 OK in 538ms (Views: 453.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/customers/" for ::1 at 2016-10-06 16:16:17 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (1.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (51.0ms)
+Completed 200 OK in 1655ms (Views: 1507.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/customers/" for ::1 at 2016-10-06 16:17:17 +0900
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (20.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 546ms (Views: 437.8ms | ActiveRecord: 20.0ms)
+
+
